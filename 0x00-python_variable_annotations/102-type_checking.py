@@ -6,6 +6,9 @@ from typing import List, Tuple, Sequence
 
 
 def zoom_array(lst: Sequence[int], factor: int = 2) -> List[int]:
+    '''
+    zoom_array - takes in sequence and int and returns a list
+    '''
     zoomed_in: List[int] = [
         item for item in lst
         for i in range(factor)
