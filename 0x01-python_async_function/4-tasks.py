@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 '''Spawn task_wait_random n times with the specified max_delay'''
 import asyncio
